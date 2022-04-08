@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:sqflite/sqflite.dart';
 import 'dart:async';
 import 'dbhelper.dart';
-import 'entryform.dart';
+import 'entryForm.dart';
 import 'item.dart';
 
 //pendukung program asinkron
@@ -27,7 +27,7 @@ class HomeState extends State<Home> {
     }
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Daftar Item -> Alex Adi Perdana-2031710005'),
+        title: const Text('Daftar Item -> Aji Mulya Purnama-2031710113'),
       ),
       body: Column(children: [
         Expanded(
